@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<<<<<<< HEAD
   <head>
 
     <title><%= full_title(yield(:title)) %></title>
@@ -20,4 +21,18 @@
       <%= debug(params) if Rails.env.development? %>
     </div>
   </body>
+=======
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<title>SampleApp</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<%= render 'layouts/navbar' %>
+<%= yield %>
+<%= render 'layouts/footer' %>
+</body>
+>>>>>>> bb74e9afa97632cd7878916e0885ddd99dcbb419
 </html>

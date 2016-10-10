@@ -6,13 +6,20 @@
  * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
  *
  * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+<<<<<<< HEAD
  * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
+=======
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+>>>>>>> bb74e9afa97632cd7878916e0885ddd99dcbb419
  *
  *= require_tree .
  *= require_self
  */
+<<<<<<< HEAD
 button{
 	margin-top: 20px; 
 	border-color: #000000;
@@ -25,3 +32,5 @@ button{
 	width: 20px;
 	height: 20px;
 }
+=======
+>>>>>>> bb74e9afa97632cd7878916e0885ddd99dcbb419

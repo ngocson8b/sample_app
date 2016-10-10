@@ -4,6 +4,7 @@ class StaticPagesController < ApplicationController
 
   def help
   end
+<<<<<<< HEAD
 
 
   def show
@@ -29,4 +30,6 @@ end
       params.require(:user).permit(:name, :email, :password,
                                    :password_confirmation)
     end
+=======
+>>>>>>> bb74e9afa97632cd7878916e0885ddd99dcbb419
 end
