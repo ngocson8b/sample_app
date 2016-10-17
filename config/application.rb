@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-require_relative 'boot'
-=======
 require File.expand_path('../boot', __FILE__)
->>>>>>> bb74e9afa97632cd7878916e0885ddd99dcbb419
 
 require 'rails/all'
 
@@ -15,8 +11,6 @@ module SampleApp
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
-<<<<<<< HEAD
-=======
 
     # Set Time.zone default to the specified zone and make Active Record auto-convert to this zone.
     # Run "rake -D time" for a list of tasks for finding time zone names. Default is UTC.
@@ -28,6 +22,5 @@ module SampleApp
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
->>>>>>> bb74e9afa97632cd7878916e0885ddd99dcbb419
   end
 end

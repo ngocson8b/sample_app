@@ -1,7 +1,18 @@
-<<<<<<< HEAD
-<h1>StaticPages#help</h1>
-<p>Find me in app/views/static_pages/help.html.erb</p>
-=======
-<h1>Home Page</h1>
-<p>Tran Ngoc Son lop Viet Nhat B K58 MSSV 20133363</p>
->>>>>>> bb74e9afa97632cd7878916e0885ddd99dcbb419
+<% provide(:title, "Help") %>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
+  </head>
+  <body>
+    <h1>Help</h1>
+    <p>
+      Get help on the Ruby on Rails Tutorial at the
+      <a href="http://www.railstutorial.org/help">Rails Tutorial help
+      section</a>.
+      To get help on this sample app, see the
+      <a href="http://www.railstutorial.org/book"><em>Ruby on Rails
+      Tutorial</em> book</a>.
+    </p>
+  </body>
+</html>
